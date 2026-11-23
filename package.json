@@ -1,6 +1,12 @@
 {
   "name": "miso-ribbon-dashboard",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "MISO Ribbon Executive Packing Command Center — live shared localhost dashboard",
   "private": true,
-  "scripts": { "start": "python server.py" }
+  "scripts": {
+    "start": "python server.py",
+    "start:ps": "powershell -ExecutionPolicy Bypass -File Start-Dashboard.ps1"
+  },
+  "keywords": ["miso", "dashboard", "packing", "excel", "localhost"],
+  "license": "MIT"
 }
