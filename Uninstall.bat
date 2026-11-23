@@ -1,0 +1,3 @@
+@echo off
+echo Uninstalling MISO Dashboard...
+pause
